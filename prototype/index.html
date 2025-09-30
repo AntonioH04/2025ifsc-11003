@@ -1,1 +1,162 @@
-<h1>first assignment</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <title>university of arkansas at little rock: a brief history</title> <!-- title: shows in the browser tab and search results -->
+  <meta charset="utf-8" /> <!-- character encoding: ensures correct text rendering -->
+  <meta name="description" content="brief history of ua little rock plus sample html elements for a prototype document." /> <!-- description: short page summary for seo -->
+  <meta name="author" content="antonio howard" /> <!-- author: identifies the document author -->
+</head>
+<body>
+  <a id="top"></a>
+
+  <!-- page wrapper (div used to satisfy the 'closing div comment' requirement) -->
+  <div id="page">
+
+    <main>
+      <header>
+        <h1>university of arkansas at little rock: a brief history</h1>
+      </header>
+
+      <!-- required section id="content" -->
+      <section id="content">
+
+        <h2>overview</h2>
+        <p>
+          the university of arkansas at little rock (ua little rock) is a public research university in little rock, arkansas. established as little rock junior college in 1927, it became little rock university in 1957 and joined the university of arkansas system in 1969.
+        </p>
+
+        <h3>academics</h3>
+        <p>
+          ua little rock offers more than 100 undergraduate and 60 graduate degrees across three colleges and a law school.
+          an inline quote example: <q>education is the most powerful weapon which you can use to change the world.</q>
+        </p>
+
+        <h4>lists (three types)</h4>
+
+        <p><strong>unordered list</strong></p>
+        <ul>
+          <li>college of business, health, and human services</li>
+          <li>college of humanities, arts, social sciences, and education</li>
+          <li>donaghey college of science, technology, engineering, and mathematics</li>
+        </ul>
+
+        <p><strong>ordered list</strong></p>
+        <ol>
+          <li>apply</li>
+          <li>enroll</li>
+          <li>graduate</li>
+        </ol>
+
+        <p><strong>definition list</strong></p>
+        <dl>
+          <dt><strong>r2 classification</strong></dt>
+          <dd><em>doctoral universities – high research activity</em></dd>
+          <dt><strong>trojans</strong></dt>
+          <dd>nickname for ua little rock athletics</dd>
+        </dl>
+
+        <h4>quotes</h4>
+        <p><em>block-level quote (with citation):</em></p>
+        <blockquote cite="https://www.ualr.edu/">
+          higher learning thrives on inquiry, community, and opportunity.
+        </blockquote>
+
+        <!-- table: 5 rows x 5 columns, -->
+        <h4>sample table</h4>
+        <!-- table wrapper  -->
+        <div id="table-area">
+          <table>
+            <caption>sample enrollment snapshot</caption>
+            <thead>
+              <tr>
+                <th scope="col">year</th>
+                <th scope="col">undergrad</th>
+                <th scope="col">graduate</th>
+                <th scope="col">international</th>
+                <th scope="col">total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2019</td>
+                <td>7200</td>
+                <td>1800</td>
+                <td>300</td>
+                <td>9300</td>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td>7100</td>
+                <td>1750</td>
+                <td>320</td>
+                <td>9170</td>
+              </tr>
+              <tr>
+                <td>2021</td>
+                <td>7050</td>
+                <td>1700</td>
+                <td>310</td>
+                <td>9060</td>
+              </tr>
+              <tr>
+                <td>2022</td>
+                <td>7000</td>
+                <td>1680</td>
+                <td>305</td>
+                <td>8985</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end #table-area -->
+
+        <h5>image</h5>
+        <p>
+          <img src="images/ualr-campus.jpg" alt="ua little rock campus" width="600" height="400" /> <!-- image: required attributes include src, alt; width/height included for layout stability -->
+        </p>
+
+       
+        <p>
+          ua little rock maintains a <strong>student-centered</strong> approach and emphasizes <em>experiential learning</em>.
+        </p>
+
+      </section>
+
+      <!-- navigation -->
+      <nav aria-label="primary">
+        <ul>
+          <li><a href="index.html" title="go to homepage">home</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/University_of_Arkansas_at_Little_Rock" title="about ua little rock on wikipedia">about</a></li>
+          <li><a href="https://ualr.edu" title="visit ualr.edu (opens in new tab)" target="_blank" rel="noopener">ualr</a></li>
+          <li><a href="mailto:mail@ualr.edu" title="send us an email">contact</a></li>
+        </ul>
+      </nav>
+
+     
+      <div id="extra-content">
+        <p>
+          student body composition (example data): white 48%<br />
+          black 27%<br />
+          other 15%<br />
+          hispanic 4%<br />
+          foreign national 3%<br />
+          asian 2%<br />
+          native american 1%
+        </p>
+      </div>
+      <!-- end -->
+
+    </main>
+
+    <footer>
+      <h6>
+        &copy; 2025 antonio howard &middot;
+        <a href="mailto:mail@ualr.edu" title="report an issue via email">report issue</a> &middot;
+        <a href="#top" title="return to top of page">back to top</a>
+      </h6>
+    </footer>
+
+  </div>
+  <!-- end #page -->
+</body>
+</html>
