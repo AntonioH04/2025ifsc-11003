@@ -10,6 +10,21 @@ html {
   box-sizing: inherit;
 }
 
+/* ----------utility classes*/
+
+.containter{
+  width: 80vw;
+  margin:20px auto;
+  max-width: 960px;
+}
+
+
+/*------------responsive images-------*/
+
+img{
+  max-width: 100%;
+}
+
 /* -------- Global Styles ------------ */
 
 body{
@@ -46,10 +61,55 @@ margin:10px 0 0;
 
 header.primary nav ul{
 padding: 0%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 10px 0px 8px 0;
 }
 header.primary nav ul li{
   list-style-type: none;
 }
 header.primary nav ul a{
-  
+  color: #000000;
+  background-color: #ffffff;
+  padding: 5px 7.5px;
+  border-radius: 8px 10px;
+  text-decoration: none;
+  background-color: rgba(0,0,0,.4);
+  font-size: .9rem;
+transition: .5s;
+}
+
+header.primary nav a:hover{
+  background-color: rgba(0,0,0,.8);
+}
+
+
+
+
+
+
+
+
+/**     media quaries         **/
+
+@media screen and (max-width: 600px){
+
+header.primary nav ul{
+flex-direction: column;
+gap: 10px;
+}
+
+header.primary nav ul a{
+display: block;
+
+}
+
+
+.containter{
+  background-color: transparent;
+  width: 90vw;
+  margin:20px auto;
+
+
 }
